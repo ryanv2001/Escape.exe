@@ -1,5 +1,7 @@
 import tkinter
 import random
+import time
+
 print(“Welcome to Escape.exe, do you want to play?\n”)
 print('Loading')
 import time
@@ -171,7 +173,7 @@ print(“A door with a screen lock stands in front of you, it says ‘You must b
 answer = input(“Type ‘continue’ to play\n”)
 If answer == “continue”:
 	print('Loading')
-import time
+
 def wait():
     for i in range(5):
         print('.', end = "")
