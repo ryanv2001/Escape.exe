@@ -10,9 +10,6 @@ import time
 import PIL
 from PIL import ImageTk, Image
 
-import random
-import time
-
 print(“Welcome to Escape.exe, do you want to play?\n”)
 print('Loading')
 import time
