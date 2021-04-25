@@ -166,7 +166,7 @@ def images(seconds):
        
 findTheKey()
 
-print('You walk through the doorway into a narrow, dimly lit hallway.’\n)
+print('You walk through the doorway into a narrow, dimly lit hallway\n')
 print('The light flickers above you.\n')
 print('Do you want to turn right or left?\n')
 answer = input('Enter right or left: ') 
@@ -180,8 +180,10 @@ print('You see a small segment of light at the end of the hallway.\n')
 print('Finally, you reach the light.\n')
 print('A door with a screen lock stands in front of you, it says ‘You must beat my game in order to get through’\n')
 answer = input('Type ‘continue’ to play\n')
-If answer == 'continue':
+if answer == 'continue':
 	print('Loading')
+else:
+	print('Please enter continue or exit the game if you wish')
 import time
 def wait():
     for i in range(5):
@@ -189,8 +191,7 @@ def wait():
         time.sleep(.5)
     print()
 wait()
-Else:
-	print('Please enter continue or exit the game if you wish')
+
 
 word_list = ['Bulbasaur', 'Ivysaur', 'Venusaur', 'Charmander', 'Charmeleon', 'Charizard', 'Squirtle', 'Wartortle', 'Blastoise', 'Caterpie', 'Metapod', 'Butterfree', 'Weedle', 'Kakuna', 'Beedrill', 'Pidgey', 'Pidgeotto', 'Pidgeot', 'Rattata', 'Raticate', 'Spearow', 'Fearow', 'Ekans', 'Arbok', 'Pikachu', 'Raichu', 'Sandshrew', 'Sandslash', 'Nidoran', 'Nidorina', 'Nidoqueen', 'Nidorino', 'Nidoking', 'Clefairy', 'Clefable', 'Vulpix', 'Ninetales', 'Jigglypuff', 'Wigglytuff', 'Zubat', 'Golbat', 'Oddish', 'Gloom', 'Vileplume', 'Paras', 'Parasect', 'Venonat', 'Venomoth', 'Diglett', 'Dugtrio', 'Meowth', 'Persian', 'Psyduck', 'Golduck', 'Mankey', 'Primeape', 'Growlithe', 'Arcanine', 'Poliwag', 'Poliwhirl', 'Poliwrath', 'Abra', 'Kadabra', 'Alakazam', 'Machop', 'Machoke', 'Machamp', 'Bellsprout', 'Weepinbell', 'Victreebel', 'Tentacool', 'Tentacruel', 'Geodude', 'Graveler', 'Golem', 'Ponyta', 'Rapidash', 'Slowpoke', 'Slowbro', 'Magnemite', 'Magneton', 'Farfetch’d', 'Doduo', 'Dodrio', 'Seel', 'Dewgong', 'Grimer', 'Muk', 'Shellder', 'Cloyster', 'Gastly', 'Haunter', 'Gengar', 'Onyx', 'Drowzee', 'Hypno', 'Krabby', 'Kingler', 'Voltorb', 'Electrode', 'Exeggcute', 'Exeggutor', 'Cubone', 'Marowak', 'Hitmonlee', 'Hitmonchan', 'Lickitung', 'Koffing', 'Weezing', 'Rhyhorn', 'Rhydon', 'Chansey', 'Tangela', 'Kangaskhan', 'Horsea', 'Seadra', 'Goldeen', 'Seaking', 'Staryu', 'Starmie', 'Mr. Mime', 'Scyther', 'Jynx', 'Electabuzz', 'Magmar', 'Pinsir', 'Tauros', 'Magikarp', 'Gyarados', 'Lapras', 'Ditto', 'Eevee', 'Vaporeon', 'Jolteon', 'Flareon', 'Porygon', 'Omanyte', 'Omastar', 'Kabuto', 'Kabutops', 'Aerodactyl', 'Snorlax', 'Articuno', 'Zapdos', 'Moltres', 'Dratini', 'Dragonair', 'Dragonite', 'Mewtwo', 'Mew']
 
@@ -364,8 +365,10 @@ print('One ring on the ladder begins to move, it turns into a screen.\n')
 print('The voice returns\n')
 print('To go up the ladder and escape this facility, you must beat this game.\n')
 answer = input('You walk towards the screen, are you ready to play? (type continue to play)\n')
-If answer == 'continue':
+if answer == 'continue':
 	print('Loading')
+else:
+	print('Please enter continue or exit the game if you wish')
 import time
 def wait():
     for i in range(5):
@@ -373,8 +376,6 @@ def wait():
         time.sleep(.5)
     print()
 wait()
-Else:
-	print('Please enter continue or exit the game if you wish')
 
 print('Insert game 3')
 print('After climbing the ladder, you finally see the outside world through a window.\n')
@@ -390,14 +391,16 @@ def wait():
     print()
 wait()
 print('Hanging from the ceiling is a skeleton. But this is not the average skeleton you see in chemistry lab, this one seems… off.\n')
-print('Soon, you realize why it seems so off. This skeleton is not a fake one.\n
+print('Soon, you realize why it seems so off. This skeleton is not a fake one.\n')
 print('Panicked, you search the room some more. \n')
 print('You find something in the corner, it is a crate.\n')
-print('In this crate, there is a letter. It reads, ‘To whom it may concern: Congratulations for coming this far young one. You are almost there. What lies within this crate are the riddles that have engulfed the final moments of my life. The robot said I had to solve these to escape, and I just can’t get the last one. My body will probably lie somewhere within this room. Please, don’t end up like me. Goodluck.’\n)
+print('In this crate, there is a letter. It reads, ‘To whom it may concern: Congratulations for coming this far young one. You are almost there. What lies within this crate are the riddles that have engulfed the final moments of my life. The robot said I had to solve these to escape, and I just can’t get the last one. My body will probably lie somewhere within this room. Please, don’t end up like me. Goodluck.\n')
 print('You pick up the crate and open the envelope which contains said riddles.\n')
 answer = input('Are you ready to play? (type continue to play)\n')
-If answer == 'continue':
+if answer == 'continue':
 	print('Loading')
+else:
+	print('Please enter continue or exit the game if you wish')
 import time
 def wait():
     for i in range(5):
@@ -405,8 +408,7 @@ def wait():
         time.sleep(.5)
     print()
 wait()
-Else:
-	print('Please enter continue or exit the game if you wish')
+
 
 from tkinter import *
 from random import choice
