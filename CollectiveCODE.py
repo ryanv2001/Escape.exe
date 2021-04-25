@@ -373,7 +373,7 @@ def wait():
 wait()
 Else:
 	print(“Please enter continue or exit the game if you wish”)
-*insert game 3*
+print("Insert game 3")
 print(“After climbing the ladder, you finally see the outside world through a window.\n”)
 print(“Quickly, you run up to the window and start pounding it with your fists. You are desperate to escape.\n”)
 print(“But shortly after scanning the room, you realize that there is not a door in sight, only windows.\n”)
