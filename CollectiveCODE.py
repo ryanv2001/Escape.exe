@@ -853,6 +853,7 @@ print('This skeleton is not a fake one.\nPanicked, you search the room some more
 print('You find something in the corner, it is a crate.\n')
 print('In this crate, there is a letter. It reads, ‘To whom it may concern: Congratulations for coming this far young one. You are almost there. What lies within this crate are the riddles that have engulfed the final moments of my life. The robot said I had to solve these to escape, and I just can’t get them. My body will probably lie somewhere within this room. Please, don’t end up like me. Goodluck.\n')
 print('You pick up the crate and open the envelope which contains the riddles.\n')
+print('You must guess 3 words to win the game')
 answer = input('Are you ready to play? (type continue to play)\n')
 if answer == 'continue':
 	print('Loading')
