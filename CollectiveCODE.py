@@ -877,7 +877,7 @@ from PIL import ImageTk
 # Create root window
 for i in range(3):
     root = Tk()
-    root.title('Brain Teaser - Hacking Word Edition')
+    root.title('Brain Teaser - Computer Science Edition')
     root.geometry("600x400+-1900+100")
 
 
@@ -900,7 +900,7 @@ for i in range(3):
         answer_label.config(text='')
 
         # List of hacking terms
-        hackingterms = ['phishing','malware','ransomware','encryption','firewall','rootkit','payload']
+        hackingterms = ['phishing','malware','ransomware','encryption','firewall','rootkit','payload','programming','password','trojan','language','spyware','binary','algorithm','array','function','variable']
 
         # Pick hacking term from list
         global word
