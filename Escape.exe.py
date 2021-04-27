@@ -762,13 +762,13 @@ def Q20():
 #The Die Roll
 for i in range(30):
     if player_one.pos() >= (450,50):
-        win_label = tk.Label(canvas.master, text = 'Congratulations! You Won', font = ('calibre',24,'bold'), bg='spring green', fg='black', height=1, width=20, relief='raised', borderwidth=4)
+        win_label = tk.Label(canvas.master, text = 'Congratulations! You Won. Press Exit to leave and continue the game', font = ('calibre',24,'bold'), bg='spring green', fg='black', height=1, width=20, relief='raised', borderwidth=4)
         canvas.create_window(0, 0, window=win_label) 
         print("You Won The Game!")
         break
 
     elif player_two.pos() >= (450,-50):
-        lose_label = tk.Label(canvas.master, text = 'CPU Wins The Game! You Lost.', font = ('calibre',24,'bold'), bg='red', fg='white', height=1, width=25, relief='raised', borderwidth=4)
+        lose_label = tk.Label(canvas.master, text = 'CPU Wins The Game! You Lost. Press Exit to leave and continue the game', font = ('calibre',24,'bold'), bg='red', fg='white', height=1, width=25, relief='raised', borderwidth=4)
         canvas.create_window(0, 0, window=lose_label)
         print("CPU WIns The Game! You Lost.")
         break
