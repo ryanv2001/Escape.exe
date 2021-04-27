@@ -10,7 +10,13 @@ import time
 import PIL
 from PIL import ImageTk, Image
 
-print('Welcome to Escape.exe, do you want to play?\n')
+print('Welcome to Escape.exe\n')
+print('Created by Anthony Febbraro, Ryan Vansluytman, Kianna Barbarisi (Freshman)\n')
+answer = input('Do you want to play? (type "yes" to continue)\n') 
+if answer == 'yes': 
+    print('Good Luck!')
+else: 
+    print('Please enter "yes"')
 print('Loading')
 import time
 def wait():
